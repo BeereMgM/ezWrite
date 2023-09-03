@@ -8,7 +8,7 @@
 # Installation
 
 ```python
-    pip install ezWrite
+pip install ezWrite
 ```
 
 ## Examples of ezWrite
