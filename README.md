@@ -5,6 +5,12 @@
 
 # Stay Tuned!
 
+# Installation
+
+```python
+    pip install ezWrite
+```
+
 ## Examples of ezWrite
 
 Write to a file:
