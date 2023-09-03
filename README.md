@@ -15,54 +15,54 @@ pip install ezWrite
 
 Write to a file:
 ```python
-    from ezWrite import write_file
-    #Syntax: write_file(filename, content, path)
-    write_file('hello.txt', 'Hello World!')
+from ezWrite import write_file
+#Syntax: write_file(filename, content, path)
+write_file('hello.txt', 'Hello World!')
 ```
 
 Adding a path:
 ```python
-    from ezWrite import write_file
-    #Syntax: write_file(filename, content, path)
-    write_file('hello.txt', 'Hello World', 'C:\\Users\\User\\Desktop')
+from ezWrite import write_file
+#Syntax: write_file(filename, content, path)
+write_file('hello.txt', 'Hello World', 'C:\\Users\\User\\Desktop')
 ```
 
 Append to a file:
 ```python
-    from ezWrite import append_file
-    #Syntax: append_file(filename, content, path)
-    append_file('hello.txt', 'Hello World')
+from ezWrite import append_file
+#Syntax: append_file(filename, content, path)
+append_file('hello.txt', 'Hello World')
 ```
 
 Read file:
 ```python
-    from ezWrite import read_file
-    #Syntax: read_file(filename, path, line)
-    output = read_file('hello.txt', 'C:\\Users\\User\\Desktop')
-    print(output)
+from ezWrite import read_file
+#Syntax: read_file(filename, path, line)
+output = read_file('hello.txt', 'C:\\Users\\User\\Desktop')
+print(output)
 ```
 
 Read specific line of file:
 ```python
-    from ezWrite import read_file
-    #Syntax: read_file(filename, path, line)
-    output = read_file('hello.txt', 'C:\\Users\\User\\Desktop', 1)
-    print(output)
+from ezWrite import read_file
+#Syntax: read_file(filename, path, line)
+output = read_file('hello.txt', 'C:\\Users\\User\\Desktop', 1)
+print(output)
 ```
 
 Read multiple lines:
 ```python
-    from ezWrite import read_lines
-    #Syntax: read_lines(filename, path, fromLine, toLine)
-    output = read_lines('hello.txt', 'C:\\Users\\User\\Desktop', 1, 5)
-    print(output)
+from ezWrite import read_lines
+#Syntax: read_lines(filename, path, fromLine, toLine)
+output = read_lines('hello.txt', 'C:\\Users\\User\\Desktop', 1, 5)
+print(output)
 ```
 
 Delete a File:
 ```python
-    from ezWrite import deleteFile
-    #Syntax: deleteFile(filename, path)
-    deleteFile('hello.txt', 'C:\\Users\\User\\Desktop')
+from ezWrite import deleteFile
+#Syntax: deleteFile(filename, path)
+deleteFile('hello.txt', 'C:\\Users\\User\\Desktop')
 ```
 
 ### Connect with me:
