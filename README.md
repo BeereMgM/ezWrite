@@ -47,3 +47,23 @@ Read specific line of file
     print(output)
 ```
 
+Read multiple lines
+
+```python
+    from ezWrite import read_lines
+    #Syntax: read_lines(filename, path, fromLine, toLine)
+    output = read_lines('hello.txt', 'C:\\Users\\User\\Desktop', 1, 5)
+    print(output)
+```
+
+Delete a File
+
+```python
+    from ezWrite import deleteFile
+    #Syntax: deleteFile(filename, path)
+    deleteFile('hello.txt', 'C:\\Users\\User\\Desktop')
+```
+
+### Connect with me:
+[![website](https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-light.svg)](https://twitter.com/codestackr#gh-light-mode-only)
+[![website](https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-dark.svg)](https://twitter.com/codestackr#gh-dark-mode-only)
