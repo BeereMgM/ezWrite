@@ -65,5 +65,5 @@ Delete a File
 ```
 
 ### Connect with me:
-[![website](https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-light.svg)](https://twitter.com/codestackr#gh-light-mode-only)
-[![website](https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-dark.svg)](https://twitter.com/codestackr#gh-dark-mode-only)
+[![website](https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-light.svg)](https://twitter.com/MgmBeere#gh-light-mode-only)
+[![website](https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-dark.svg)](https://twitter.com/MgmBeere#gh-dark-mode-only)
