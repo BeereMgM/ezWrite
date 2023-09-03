@@ -7,30 +7,28 @@
 
 ## Examples of ezWrite
 
-Write to a file
+Write to a file:
 ```python
     from ezWrite import write_file
     #Syntax: write_file(filename, content, path)
     write_file('hello.txt', 'Hello World!')
 ```
 
-Adding a path
+Adding a path:
 ```python
     from ezWrite import write_file
     #Syntax: write_file(filename, content, path)
     write_file('hello.txt', 'Hello World', 'C:\\Users\\User\\Desktop')
 ```
 
-Append to a file
-
+Append to a file:
 ```python
     from ezWrite import append_file
     #Syntax: append_file(filename, content, path)
     append_file('hello.txt', 'Hello World')
 ```
 
-Read file
-
+Read file:
 ```python
     from ezWrite import read_file
     #Syntax: read_file(filename, path, line)
@@ -38,8 +36,7 @@ Read file
     print(output)
 ```
 
-Read specific line of file
-
+Read specific line of file:
 ```python
     from ezWrite import read_file
     #Syntax: read_file(filename, path, line)
@@ -47,8 +44,7 @@ Read specific line of file
     print(output)
 ```
 
-Read multiple lines
-
+Read multiple lines:
 ```python
     from ezWrite import read_lines
     #Syntax: read_lines(filename, path, fromLine, toLine)
@@ -56,8 +52,7 @@ Read multiple lines
     print(output)
 ```
 
-Delete a File
-
+Delete a File:
 ```python
     from ezWrite import deleteFile
     #Syntax: deleteFile(filename, path)
