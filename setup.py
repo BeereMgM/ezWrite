@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'ezWrite to files package!'
-LONG_DESCRIPTION = 'A simple package that lets you write faster to files!'
+LONG_DESCRIPTION = 'A simple package that lets you write faster to files! Watch the whole documentation at https://github.com/BeereMgM/ezWrite'
 
 # Setting up
 setup(
@@ -18,7 +18,7 @@ setup(
     install_requires=['cryptography'],
     keywords=['python', 'write', 'File', 'ezWrite', 'read', 'delete'],
     classifiers=[
-        "Development Status :: 1 - Releasing",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
