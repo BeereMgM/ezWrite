@@ -36,7 +36,7 @@ def read_file(filename: str, path: str = os.getcwd(), line: int = None):
                 output = output[line - 1]
                 return output
         except Exception as e:
-            print(f"Error reading file {e}")
+            print(f"Error while reading file {e}")
 def read_lines(filename: str, path: str = os.getcwd(), fromLine: int = 0, toLine: int = 1):
     filepath = os.path.join(path, filename)
     try: 
