@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.0.3'
+VERSION = '0.0.5'
 DESCRIPTION = 'ezWrite to files package!'
 LONG_DESCRIPTION = 'A simple package that lets you write faster to files! Watch the whole documentation at https://github.com/BeereMgM/ezWrite'
 
