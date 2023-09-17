@@ -11,7 +11,7 @@ def get_path(filename: str, path: str):
     return filepath
 
 def read_dataset(filename: str, dataset: str, path: str = os.getcwd()):
-    filepath = get_path(filename, get_path)
+    filepath = get_path(filename, path)
     with open(filepath) as json_file:
         data = json.load(json_file)
         for i in data[dataset]:
