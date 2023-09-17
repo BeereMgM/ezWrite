@@ -5,6 +5,10 @@
 
 # Stay Tuned!
 
+## Changelogs:
+- added ezJson 
+- fixed some bugs with __init__.py
+
 # Installation
 
 ```python
@@ -64,6 +68,44 @@ from ezWrite import deleteFile
 #Syntax: deleteFile(filename, path)
 deleteFile('hello.txt', 'C:\\Users\\User\\Desktop')
 ```
+## Examples of ezJson
+
+Write to a file:
+```python
+from ezJson import write_json
+#Syntax: write_json(filename: str, content: str, path: str, sort_keys: bool)
+write_json('hello', '{"hello": "world!"}', sort_keys=False)
+```
+
+Read from a json file:
+```python
+from ezJson import read_data
+#Syntax: read_data(filename: str, key: str, path: str)
+output = read_data('hello', 'hello')
+print(output) #>>> world!
+```
+```python
+from ezJson import read_dataset
+#Syntax: read_dataset(filename: str, dataset: str, path: str)
+output = read_dataset('hello', 'hello')
+print(output) #>>> {"hello": "world!", "how": "are you?"}!
+```
+```python
+from ezJson import read_whole_file
+#Syntax: read_whole_file(filename: str, path: str)
+output = read_whole_file('hello')
+print(output) #>>> ["helloworld":{"hello": "world!", "how": "are you?"}]!
+```
+
+Delete from json file:
+```python
+from ezJson import delete_data
+#Syntax: delete_data(filename: str, key: str, path: str)
+delete_data('hello', 'hello')
+```
+
+### If you face some bugs or problems feel free to open an issue or join my discord!
+[![](https://img.shields.io/discord/1140359404156366918?label=discord&style=for-the-badge&logo=discord&color=5865F2&logoColor=white)](https://discord.gg/kJvREaJDfd)
 
 ### Connect with me:
 [![website](https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-light.svg)](https://twitter.com/MgmBeere#gh-light-mode-only)
