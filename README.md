@@ -7,7 +7,7 @@
 
 ## Changelogs:
 - added ezJson 
-- fixed some bugs with __init__.py
+- fixed some bugs with \__init__.py
 
 # Installation
 
