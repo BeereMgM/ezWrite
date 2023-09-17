@@ -3,3 +3,8 @@ from .ezWrite import append_file
 from .ezWrite import read_file
 from .ezWrite import read_lines
 from .ezWrite import deleteFile
+from .ezJson import read_dataset
+from .ezJson import write_json
+from .ezJson import read_data
+from .ezJson import delete_data
+from .ezJson import read_whole_file
