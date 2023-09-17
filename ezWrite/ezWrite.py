@@ -46,7 +46,7 @@ def read_lines(filename: str, path: str = os.getcwd(), fromLine: int = 0, toLine
             f.close()
             return output
     except Exception as e: 
-        print(f"Error reading: {e}")
+        print(f"Error while reading: {e}")
 
 def deleteFile(filename: str, path: str = os.getcwd()):
     filepath = os.path.join(path, filename)
